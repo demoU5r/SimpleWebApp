@@ -1,6 +1,6 @@
 node {
    stage('Preparation') {
-      git 'https://github.com/ivanmoore/SimpleWebApp.git'
+      git 'git@github.com:demoU5r/SimpleWebApp.git'
    }
    stage('Build') {
       sh "./gradlew clean test"
